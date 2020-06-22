@@ -78,7 +78,7 @@ User interaction needed to get Authentification Code from Withings!
 Open the following URL in your web browser and copy back the token. You will have *30 seconds* before the token expires. HURRY UP!
 (This is one-time activity)
 
-https://account.withings.com/oauth2_user/authorize2?response_type=code&client_id=183e03e1f363110b3551f96765c98c10e8f1aa647a37067a1cb64bbbaf491626&state=OK&scope=user.metrics&redirect_uri=https://wieloryb.uk.to/withings/withings.html&
+https://account.withings.com/oauth2_user/authorize2?response_type=code&client_id=c36cfbe42c86d66cc195947190c687c5e0975e0ee93658d492195e0b9ff88ebf&state=OK&scope=user.metrics&redirect_uri=https://wieloryb.uk.to/withings/withings.html&
 
 Token :
 ```
