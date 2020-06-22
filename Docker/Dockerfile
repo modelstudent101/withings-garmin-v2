@@ -10,7 +10,7 @@ RUN mkdir ~/.ssh/ && \
     touch ~/.ssh/known_hosts && \
     ssh-keyscan github.com >> ~/.ssh/known_hosts
 
-RUN git clone git@github.com:modelstudent101/withings-garmin-v2.git
+RUN git clone git://github.com:modelstudent101/withings-garmin-v2.git
 
 FROM python:3.6-alpine
 
