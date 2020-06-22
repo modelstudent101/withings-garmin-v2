@@ -12,7 +12,7 @@ RUN mkdir ~/.ssh/ && \
 
 RUN git clone git://github.com/modelstudent101/withings-garmin-v2.git
 
-FROM python:3.6-alpine
+FROM resin/raspberry-pi-alpine-python:3.6-slim-20190219
 
 RUN mkdir -p /withings-garmin-v2
 COPY --from=git /withings-garmin-v2 /withings-garmin-v2
