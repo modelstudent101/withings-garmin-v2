@@ -1,4 +1,4 @@
-# withings-garmin-v2 (and TrainerRoad)
+# withings-garmin-v2 (and TrainerRoad) --EDITED TO RUN ON RASPBERRY PI DOCKER
 
 A tool for synchronisation of Withings (ex. Nokia Health Body) to Garmin Connect and Trainer Road.
 
@@ -14,6 +14,8 @@ A tool for synchronisation of Withings (ex. Nokia Health Body) to Garmin Connect
 
 ## Pre-requisites
 
+* Docker
+* Docker "BUILDX" (https://docs.docker.com/buildx/working-with-buildx/)
 * Python 3
 * 'Requests: HTTP for Humans' (http://docs.python-requests.org/en/latest/)
 * lxml
